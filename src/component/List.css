@@ -1,0 +1,16 @@
+.item {
+    background-color: lightgoldenrodyellow;
+    border-color: lightcoral;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin: 3px;
+}
+
+.title {
+    font: bold;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+}

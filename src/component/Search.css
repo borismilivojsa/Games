@@ -1,0 +1,7 @@
+.search {
+    display: inline-grid;
+    background-color: bisque;
+    font-size: larger;
+    font-family: sans-serif;
+    text-align: center;
+}
