@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import List from './component/List'
 import { Route, Routes } from 'react-router-dom'
-import Headers from './component/Header'
 import Item from './component/Item'
 import Filter from './component/Filter'
 
@@ -11,9 +10,8 @@ const App = () => {
 
     return (
         <div>
-            <Headers/>
             <Routes>
-                <Route path="/games" element={ <List results={ results } setResults={ setResults }/> }/>
+                <Route path="/" element={ <List results={ results } setResults={ setResults }/> }/>
                 <Route path="/games/:id" element={ <Item /> }/>
                 <Route path="/filter" element={ <Filter results={results} setResults={setResults}/> } />
                 {/*<Route path="/category" element={ <Category results={ results } setResults={ setResults }/> }/>*/}

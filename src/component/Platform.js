@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import games from '../api/games'
 import Card from './Card'
 
 const Platform = ({results, setResults}) => {
-    const [platform, setPlatform] = useState('pc')
+    const [platform, setPlatform] = useState('')
 
     useEffect(() => {
         showPlatforms()

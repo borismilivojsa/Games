@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import games from '../api/games'
 import Card from './Card'
 
 const Category = ({results, setResults}) => {
-    const [category, setCategory] = useState('pvp')
+    const [category, setCategory] = useState('')
 
     useEffect(() => {
         showCat()
